@@ -30,14 +30,14 @@ jobs:
       - name: Installation des dépendances
         run: npm install
 
-      # - name: Tests Unitaires
-      #   run: npm run test-unit
+      - name: Tests Unitaires
+        run: npm run test-unit
 
-      # - name: Tests Fonctionnels
-      #   run: npm run test-functional
+      - name: Tests Fonctionnels
+        run: npm run test-functional
 
-      # - name: Build de l'application
-      #   run: npm run build
+      - name: Build de l'application
+        run: npm run build
 
       # - name: Déploiement Netlify (Production)
       #   if: github.ref == 'refs/heads/main' && github.event_name == 'push'
